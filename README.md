@@ -6,6 +6,7 @@ Two methods publically available:
 * find_entites - given a text runs lang_detect and, in case if the detected language is available, performs named entities extraction. If language is available returns a dictionary with keys: 'lang' for lang code and 'ner_result' for resulting text which is list of lists of tuples. Tuples contain words from the text while lists group text by sentenses.
 
 For sample text:
+
 The Detroit Pistons didn’t get to see much of them together on the court, part of the reason their playoff hopes are just about finished. So they’re trying to take the positives from a strong finish in a season where so much else went wrong. Andre Drummond narrowly missed a second straight 20-20 game with 22 points and 17 rebounds, and the Pistons beat the New York Knicks 115-109 on Saturday for their fourth straight victory.
 
 find_entities would output the following:
